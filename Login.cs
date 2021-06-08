@@ -20,18 +20,12 @@ namespace Lab5_19520982_Nguyen_Dat_Thinh
         private TcpClient client;
         private string session;
         private string username;
-        private string key { set; get; }
-        private string iv { set; get; }
 
         public FormLogin()
         {
             InitializeComponent();
             this.client = new TcpClient();
             this.session = "";
-
-            // Generate AES parameters
-            this.key = "NguyenDatThinh 19520982 ANTN2019";
-            this.iv = "19520982ANTN2019";
         }
 
         private void ConnectServer()
@@ -111,71 +105,12 @@ namespace Lab5_19520982_Nguyen_Dat_Thinh
 
             return true;
         }
-        private byte[] Encrypt(string plaintext)
-        {
-            byte[] encrypted;
-            using (AesManaged aesAlg = new AesManaged())
-            {
-                aesAlg.Padding = PaddingMode.Zeros;
-                aesAlg.Key = Encoding.UTF8.GetBytes(this.key);
-                aesAlg.IV = Encoding.UTF8.GetBytes(this.iv);
 
-                ICryptoTransform encryptor = aesAlg.CreateEncryptor(aesAlg.Key, aesAlg.IV);
-
-                using (MemoryStream msEncrypt = new MemoryStream())
-                {
-                    using (CryptoStream csEncrypt = new CryptoStream(msEncrypt, encryptor, CryptoStreamMode.Write))
-                    {
-                        using (StreamWriter swEncrypt = new StreamWriter(csEncrypt))
-                        {
-                            swEncrypt.Write(plaintext);
-                        }
-                        encrypted = msEncrypt.ToArray();
-                    }
-                }
-            }
-            return encrypted;
-        }
-        private string Decrypt(byte[] ciphertext)
-        {
-            string plaintext;
-            using (AesManaged aesAlg = new AesManaged())
-            {
-                aesAlg.Padding = PaddingMode.Zeros;
-                aesAlg.Key = Encoding.UTF8.GetBytes(this.key);
-                aesAlg.IV = Encoding.UTF8.GetBytes(this.iv);
-
-                ICryptoTransform decryptor = aesAlg.CreateDecryptor(aesAlg.Key, aesAlg.IV);
-
-                using (MemoryStream msDecrypt = new MemoryStream(ciphertext))
-                {
-                    using (CryptoStream csDecrypt = new CryptoStream(msDecrypt, decryptor, CryptoStreamMode.Read))
-                    {
-                        using (StreamReader srDecrypt = new StreamReader(csDecrypt))
-                        {
-                            plaintext = srDecrypt.ReadToEnd();
-                        }
-                    }
-                }
-            }
-
-            int i = 0;
-            for (; i < plaintext.Length; ++i)
-            {
-                if (plaintext[i] == '\0')
-                {
-                    break;
-                }
-            }
-            plaintext = plaintext.Substring(0, i);
-
-            return plaintext;
-        }
         private void Write(string msg)
         {
             NetworkStream netStream = this.client.GetStream();
             // byte[] bytes_to_write = Encoding.UTF8.GetBytes(msg);
-            byte[] bytes_to_write = Encrypt(msg);
+            byte[] bytes_to_write = AES.Encrypt(msg);
             netStream.Write(bytes_to_write, 0, bytes_to_write.Length);
         }
 
@@ -184,10 +119,10 @@ namespace Lab5_19520982_Nguyen_Dat_Thinh
             try
             {
                 NetworkStream netStream = this.client.GetStream();
-                netStream.ReadTimeout = 500;
+                // netStream.ReadTimeout = 600;
                 byte[] bytes_to_read = new byte[this.client.ReceiveBufferSize];
                 netStream.Read(bytes_to_read, 0, bytes_to_read.Length);
-                string result = Decrypt(bytes_to_read);
+                string result = AES.Decrypt(bytes_to_read);
                 return result.Replace("\0", "").Replace("\r\n", "\n");
                 // return Encoding.UTF8.GetString(bytes_to_read).Replace("\0", "").Replace("\r\n", "\n");
             }
