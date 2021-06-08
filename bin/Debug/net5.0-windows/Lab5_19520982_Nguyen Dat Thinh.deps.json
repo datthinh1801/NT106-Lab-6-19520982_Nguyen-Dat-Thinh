@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Lab5_19520982_Nguyen Dat Thinh/1.0.0": {
+        "runtime": {
+          "Lab5_19520982_Nguyen Dat Thinh.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lab5_19520982_Nguyen Dat Thinh/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

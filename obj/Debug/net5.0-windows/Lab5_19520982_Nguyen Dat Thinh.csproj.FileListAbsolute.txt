@@ -1,0 +1,46 @@
+E:\UIT\Network Programming\Labs\Lab 3\Lab5_19520982_Nguyen Dat Thinh\bin\Debug\net5.0-windows\Lab5_19520982_Nguyen Dat Thinh.exe
+E:\UIT\Network Programming\Labs\Lab 3\Lab5_19520982_Nguyen Dat Thinh\bin\Debug\net5.0-windows\Lab5_19520982_Nguyen Dat Thinh.deps.json
+E:\UIT\Network Programming\Labs\Lab 3\Lab5_19520982_Nguyen Dat Thinh\bin\Debug\net5.0-windows\Lab5_19520982_Nguyen Dat Thinh.runtimeconfig.json
+E:\UIT\Network Programming\Labs\Lab 3\Lab5_19520982_Nguyen Dat Thinh\bin\Debug\net5.0-windows\Lab5_19520982_Nguyen Dat Thinh.runtimeconfig.dev.json
+E:\UIT\Network Programming\Labs\Lab 3\Lab5_19520982_Nguyen Dat Thinh\bin\Debug\net5.0-windows\Lab5_19520982_Nguyen Dat Thinh.dll
+E:\UIT\Network Programming\Labs\Lab 3\Lab5_19520982_Nguyen Dat Thinh\bin\Debug\net5.0-windows\ref\Lab5_19520982_Nguyen Dat Thinh.dll
+E:\UIT\Network Programming\Labs\Lab 3\Lab5_19520982_Nguyen Dat Thinh\bin\Debug\net5.0-windows\Lab5_19520982_Nguyen Dat Thinh.pdb
+E:\UIT\Network Programming\Labs\Lab 3\Lab5_19520982_Nguyen Dat Thinh\obj\Debug\net5.0-windows\Lab5_19520982_Nguyen Dat Thinh.csprojAssemblyReference.cache
+E:\UIT\Network Programming\Labs\Lab 3\Lab5_19520982_Nguyen Dat Thinh\obj\Debug\net5.0-windows\Lab5_19520982_Nguyen_Dat_Thinh.FormSignup.resources
+E:\UIT\Network Programming\Labs\Lab 3\Lab5_19520982_Nguyen Dat Thinh\obj\Debug\net5.0-windows\Lab5_19520982_Nguyen Dat Thinh.csproj.GenerateResource.cache
+E:\UIT\Network Programming\Labs\Lab 3\Lab5_19520982_Nguyen Dat Thinh\obj\Debug\net5.0-windows\Lab5_19520982_Nguyen Dat Thinh.GeneratedMSBuildEditorConfig.editorconfig
+E:\UIT\Network Programming\Labs\Lab 3\Lab5_19520982_Nguyen Dat Thinh\obj\Debug\net5.0-windows\Lab5_19520982_Nguyen Dat Thinh.AssemblyInfoInputs.cache
+E:\UIT\Network Programming\Labs\Lab 3\Lab5_19520982_Nguyen Dat Thinh\obj\Debug\net5.0-windows\Lab5_19520982_Nguyen Dat Thinh.AssemblyInfo.cs
+E:\UIT\Network Programming\Labs\Lab 3\Lab5_19520982_Nguyen Dat Thinh\obj\Debug\net5.0-windows\Lab5_19520982_Nguyen Dat Thinh.csproj.CoreCompileInputs.cache
+E:\UIT\Network Programming\Labs\Lab 3\Lab5_19520982_Nguyen Dat Thinh\obj\Debug\net5.0-windows\Lab5_19520982_Nguyen Dat Thinh.dll
+E:\UIT\Network Programming\Labs\Lab 3\Lab5_19520982_Nguyen Dat Thinh\obj\Debug\net5.0-windows\ref\Lab5_19520982_Nguyen Dat Thinh.dll
+E:\UIT\Network Programming\Labs\Lab 3\Lab5_19520982_Nguyen Dat Thinh\obj\Debug\net5.0-windows\Lab5_19520982_Nguyen Dat Thinh.pdb
+E:\UIT\Network Programming\Labs\Lab 3\Lab5_19520982_Nguyen Dat Thinh\obj\Debug\net5.0-windows\Lab5_19520982_Nguyen Dat Thinh.genruntimeconfig.cache
+E:\UIT\Network Programming\Labs\Lab 3\Lab5_19520982_Nguyen Dat Thinh\obj\Debug\net5.0-windows\Lab5_19520982_Nguyen_Dat_Thinh.FormLogin.resources
+E:\UIT\Network Programming\Labs\Lab 3\Lab5_19520982_Nguyen Dat Thinh\obj\Debug\net5.0-windows\Lab5_19520982_Nguyen_Dat_Thinh.InitialForm.resources
+E:\UIT\Network Programming\Labs\Lab 3\Lab5_19520982_Nguyen Dat Thinh\obj\Debug\net5.0-windows\Lab5_19520982_Nguyen_Dat_Thinh.Server.resources
+E:\UIT\Network Programming\Labs\Lab 3\Lab5_19520982_Nguyen Dat Thinh\obj\Debug\net5.0-windows\Lab5_19520982_Nguyen_Dat_Thinh.ChatRoom.resources
+E:\UIT\Network Programming\Labs\Lab 3\Lab5_19520982_Nguyen Dat Thinh\obj\Debug\net5.0-windows\Lab5_19520982_Nguyen_Dat_Thinh.FormRoomMenu.resources
+C:\Users\datth\Downloads\Lab3_19520982_Nguyen Dat Thinh\Lab5_19520982_Nguyen Dat Thinh\bin\Debug\net5.0-windows\Lab5_19520982_Nguyen Dat Thinh.exe
+C:\Users\datth\Downloads\Lab3_19520982_Nguyen Dat Thinh\Lab5_19520982_Nguyen Dat Thinh\bin\Debug\net5.0-windows\Lab5_19520982_Nguyen Dat Thinh.deps.json
+C:\Users\datth\Downloads\Lab3_19520982_Nguyen Dat Thinh\Lab5_19520982_Nguyen Dat Thinh\bin\Debug\net5.0-windows\Lab5_19520982_Nguyen Dat Thinh.runtimeconfig.json
+C:\Users\datth\Downloads\Lab3_19520982_Nguyen Dat Thinh\Lab5_19520982_Nguyen Dat Thinh\bin\Debug\net5.0-windows\Lab5_19520982_Nguyen Dat Thinh.runtimeconfig.dev.json
+C:\Users\datth\Downloads\Lab3_19520982_Nguyen Dat Thinh\Lab5_19520982_Nguyen Dat Thinh\bin\Debug\net5.0-windows\Lab5_19520982_Nguyen Dat Thinh.dll
+C:\Users\datth\Downloads\Lab3_19520982_Nguyen Dat Thinh\Lab5_19520982_Nguyen Dat Thinh\bin\Debug\net5.0-windows\ref\Lab5_19520982_Nguyen Dat Thinh.dll
+C:\Users\datth\Downloads\Lab3_19520982_Nguyen Dat Thinh\Lab5_19520982_Nguyen Dat Thinh\bin\Debug\net5.0-windows\Lab5_19520982_Nguyen Dat Thinh.pdb
+C:\Users\datth\Downloads\Lab3_19520982_Nguyen Dat Thinh\Lab5_19520982_Nguyen Dat Thinh\obj\Debug\net5.0-windows\Lab5_19520982_Nguyen Dat Thinh.csprojAssemblyReference.cache
+C:\Users\datth\Downloads\Lab3_19520982_Nguyen Dat Thinh\Lab5_19520982_Nguyen Dat Thinh\obj\Debug\net5.0-windows\Lab5_19520982_Nguyen_Dat_Thinh.ChatRoom.resources
+C:\Users\datth\Downloads\Lab3_19520982_Nguyen Dat Thinh\Lab5_19520982_Nguyen Dat Thinh\obj\Debug\net5.0-windows\Lab5_19520982_Nguyen_Dat_Thinh.InitialForm.resources
+C:\Users\datth\Downloads\Lab3_19520982_Nguyen Dat Thinh\Lab5_19520982_Nguyen Dat Thinh\obj\Debug\net5.0-windows\Lab5_19520982_Nguyen_Dat_Thinh.FormLogin.resources
+C:\Users\datth\Downloads\Lab3_19520982_Nguyen Dat Thinh\Lab5_19520982_Nguyen Dat Thinh\obj\Debug\net5.0-windows\Lab5_19520982_Nguyen_Dat_Thinh.FormRoomMenu.resources
+C:\Users\datth\Downloads\Lab3_19520982_Nguyen Dat Thinh\Lab5_19520982_Nguyen Dat Thinh\obj\Debug\net5.0-windows\Lab5_19520982_Nguyen_Dat_Thinh.Server.resources
+C:\Users\datth\Downloads\Lab3_19520982_Nguyen Dat Thinh\Lab5_19520982_Nguyen Dat Thinh\obj\Debug\net5.0-windows\Lab5_19520982_Nguyen_Dat_Thinh.FormSignup.resources
+C:\Users\datth\Downloads\Lab3_19520982_Nguyen Dat Thinh\Lab5_19520982_Nguyen Dat Thinh\obj\Debug\net5.0-windows\Lab5_19520982_Nguyen Dat Thinh.csproj.GenerateResource.cache
+C:\Users\datth\Downloads\Lab3_19520982_Nguyen Dat Thinh\Lab5_19520982_Nguyen Dat Thinh\obj\Debug\net5.0-windows\Lab5_19520982_Nguyen Dat Thinh.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\datth\Downloads\Lab3_19520982_Nguyen Dat Thinh\Lab5_19520982_Nguyen Dat Thinh\obj\Debug\net5.0-windows\Lab5_19520982_Nguyen Dat Thinh.AssemblyInfoInputs.cache
+C:\Users\datth\Downloads\Lab3_19520982_Nguyen Dat Thinh\Lab5_19520982_Nguyen Dat Thinh\obj\Debug\net5.0-windows\Lab5_19520982_Nguyen Dat Thinh.AssemblyInfo.cs
+C:\Users\datth\Downloads\Lab3_19520982_Nguyen Dat Thinh\Lab5_19520982_Nguyen Dat Thinh\obj\Debug\net5.0-windows\Lab5_19520982_Nguyen Dat Thinh.csproj.CoreCompileInputs.cache
+C:\Users\datth\Downloads\Lab3_19520982_Nguyen Dat Thinh\Lab5_19520982_Nguyen Dat Thinh\obj\Debug\net5.0-windows\Lab5_19520982_Nguyen Dat Thinh.dll
+C:\Users\datth\Downloads\Lab3_19520982_Nguyen Dat Thinh\Lab5_19520982_Nguyen Dat Thinh\obj\Debug\net5.0-windows\ref\Lab5_19520982_Nguyen Dat Thinh.dll
+C:\Users\datth\Downloads\Lab3_19520982_Nguyen Dat Thinh\Lab5_19520982_Nguyen Dat Thinh\obj\Debug\net5.0-windows\Lab5_19520982_Nguyen Dat Thinh.pdb
+C:\Users\datth\Downloads\Lab3_19520982_Nguyen Dat Thinh\Lab5_19520982_Nguyen Dat Thinh\obj\Debug\net5.0-windows\Lab5_19520982_Nguyen Dat Thinh.genruntimeconfig.cache
