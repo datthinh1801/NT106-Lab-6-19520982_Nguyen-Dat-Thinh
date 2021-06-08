@@ -123,7 +123,7 @@ namespace Lab5_19520982_Nguyen_Dat_Thinh
         private string Read(ref TcpClient client)
         {
             NetworkStream netStream = client.GetStream();
-            // netStream.ReadTimeout = 600;
+            netStream.ReadTimeout = 500;
 
             if (netStream.CanRead)
             {
@@ -131,7 +131,6 @@ namespace Lab5_19520982_Nguyen_Dat_Thinh
                 netStream.Read(bytes, 0, (int)client.ReceiveBufferSize);
                 string result = AES.Decrypt(bytes);
                 return result.Replace("\0", "").Replace("\r\n", "\n").Replace("\r", "\n");
-                // return Encoding.UTF8.GetString(bytes).Replace("\0", "").Replace("\r\n", "\n").Replace("\r", "\n");
             }
             else
             {
@@ -145,7 +144,6 @@ namespace Lab5_19520982_Nguyen_Dat_Thinh
             NetworkStream netStream = client.GetStream();
             if (netStream.CanWrite)
             {
-                // byte[] bytes = Encoding.UTF8.GetBytes(data);
                 byte[] bytes = AES.Encrypt(data);
                 netStream.Write(bytes, 0, bytes.Length);
             }

@@ -109,7 +109,6 @@ namespace Lab5_19520982_Nguyen_Dat_Thinh
         private void Write(string msg)
         {
             NetworkStream netStream = this.client.GetStream();
-            // byte[] bytes_to_write = Encoding.UTF8.GetBytes(msg);
             byte[] bytes_to_write = AES.Encrypt(msg);
             netStream.Write(bytes_to_write, 0, bytes_to_write.Length);
         }
@@ -119,12 +118,11 @@ namespace Lab5_19520982_Nguyen_Dat_Thinh
             try
             {
                 NetworkStream netStream = this.client.GetStream();
-                // netStream.ReadTimeout = 600;
+                netStream.ReadTimeout = 500;
                 byte[] bytes_to_read = new byte[this.client.ReceiveBufferSize];
                 netStream.Read(bytes_to_read, 0, bytes_to_read.Length);
                 string result = AES.Decrypt(bytes_to_read);
                 return result.Replace("\0", "").Replace("\r\n", "\n");
-                // return Encoding.UTF8.GetString(bytes_to_read).Replace("\0", "").Replace("\r\n", "\n");
             }
             catch
             {
